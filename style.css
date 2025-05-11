@@ -39,7 +39,7 @@ th {
 .containter p {
   width: 1000px;
   text-align: left;
-  font-size: 30px;
+  font-size: 27px;
   padding: 0 20px;
   color: rgb(233, 148, 148);
 }
@@ -49,4 +49,5 @@ th {
   font-style: italic;
   text-indent: 30px;
   color:bisque;
+  font-size: 23px;
 }
