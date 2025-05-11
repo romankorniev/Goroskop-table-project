@@ -1,10 +1,10 @@
 body {
-    background-image: url(./img/background/horoscope_bkgr.jpg);
-    color: white;    
+  background-image: url(./img/background/horoscope_bkgr.jpg);
+  color: white;    
 }
 
 table, td, tr {
-  border: 1px solid white;
+  border: 2px solid white;
   border-collapse: collapse;
   text-align: center;
   margin: 0 auto;
@@ -12,7 +12,7 @@ table, td, tr {
 }
 
 table th {
-    width: 1000px;
+  width: 1000px;
 }
 
 tbody td:nth-child(1),
@@ -27,4 +27,26 @@ th {
   padding: 10px;
   font-size: 20px;
   font-weight: 100;
+}
+
+.img_mini {
+  float: left;
+  width: 300px;
+  height: 350px;
+  padding: 0 25px 25px 25px;
+}
+
+.containter p {
+  width: 1000px;
+  text-align: left;
+  font-size: 30px;
+  padding: 0 20px;
+  color: rgb(233, 148, 148);
+}
+.containter h2 {
+  width: 1000px;
+  text-align: justify;
+  font-style: italic;
+  text-indent: 30px;
+  color:bisque;
 }
